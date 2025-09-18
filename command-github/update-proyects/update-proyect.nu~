@@ -6,13 +6,13 @@ cd ~/ruta/a/tu/proyecto
 git status -sb
 git remote -v
 
-#Flujo que puedes usar SIEMPRE para actualizar toda una carpeta
+
+?? Flujo que puedes usar SIEMPRE para actualizar toda una carpeta
 cd /ruta/a/tu/carpeta
 
 git fetch --all --prune
-git pull --ff-only          # trae lo ¿último de GitHub
+git pull --ff-only          # trae lo £ltimo de GitHub
 
-git add -A                  # añade TODOS los cambios
+git add -A                  # a¤ade TODOS los cambios
 git commit -m "chore: sync carpeta completa"   # crea commit
 git push                    # lo sube a GitHub
-#listo
